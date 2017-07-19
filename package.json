@@ -2,11 +2,7 @@
   "name": "generator-framerjs-webpack-simple",
   "version": "1.0.0",
   "description": "A framer.js template using webpack",
-  "author": {
-    "name": "gbcdef",
-    "email": "cgbvip@gmail.com",
-    "url": "gbcdef.info"
-  },
+  "author": "gbcdef <cgbvip@gmail.com> (gbcdef.info)",
   "scripts": {
     "dev": "cross-env NODE_ENV=development webpack-dev-server --open --hot",
     "build": "cross-env NODE_ENV=production webpack --progress --hide-modules"
@@ -24,5 +20,13 @@
   },
   "devDependencies": {},
   "main": "index.js",
-  "license": "MIT"
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gbcdef/generator-framerjs-webpack-simple.git"
+  },
+  "bugs": {
+    "url": "https://github.com/gbcdef/generator-framerjs-webpack-simple/issues"
+  },
+  "homepage": "https://github.com/gbcdef/generator-framerjs-webpack-simple#readme"
 }
