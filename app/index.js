@@ -9,24 +9,6 @@ module.exports = class extends Generator {
         this.log(yosay(
             'Welcome to the ' + chalk.red('generator-framerjs-webpack-simple') + ' generator!'
         ));
-
-        // const prompts = [{
-        //         type: 'confirm',
-        //         name: 'someAnswer',
-        //         message: 'Would you like to enable this option?',
-        //         default: true
-        //     },
-        //     {
-        //         type: 'input',
-        //         name: 'name',
-        //         message: 'Your project name',
-        //         default: this.appname
-        //     }
-        // ];
-
-        // return this.prompt(prompts).then(props => {
-        //     this.props = props;
-        // });
     }
 
     writing() {
@@ -39,20 +21,18 @@ module.exports = class extends Generator {
             this.destinationPath('static')
         );
         this.fs.copy(
-            this.templatePath('.babelrc'),
-            this.destinationPath('.babelrc')
-        );
-        this.fs.copy(
             this.templatePath('index.html'),
             this.destinationPath('index.html')
         );
         this.fs.copy(
             this.templatePath('webpack.config.js'),
             this.destinationPath('webpack.config.js')
-        );
-        this.fs.copy(
-            this.templatePath('.gitignore'),
+        );this.fs.copy(
+            this.templatePath('_.gitignore'),
             this.destinationPath('.gitignore')
+        );this.fs.copy(
+            this.templatePath('_.babelrc'),
+            this.destinationPath('.babelrc')
         );
         this.fs.copy(
             this.templatePath('_package.json'),

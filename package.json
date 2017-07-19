@@ -22,8 +22,7 @@
     "yeoman-generator": "^1.1.1",
     "yosay": "^2.0.0"
   },
-  "devDependencies": {
-  },
+  "devDependencies": {},
   "main": "index.js",
   "license": "MIT"
 }
