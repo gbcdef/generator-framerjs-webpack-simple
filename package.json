@@ -1,0 +1,29 @@
+{
+  "name": "generator-framerjs-webpack-simple",
+  "version": "1.0.0",
+  "description": "A framer.js template using webpack",
+  "author": {
+    "name": "gbcdef",
+    "email": "cgbvip@gmail.com",
+    "url": "gbcdef.info"
+  },
+  "scripts": {
+    "dev": "cross-env NODE_ENV=development webpack-dev-server --open --hot",
+    "build": "cross-env NODE_ENV=production webpack --progress --hide-modules"
+  },
+  "files": [
+    "app"
+  ],
+  "keywords": [
+    "yeoman-generator"
+  ],
+  "dependencies": {
+    "chalk": "^2.0.1",
+    "yeoman-generator": "^1.1.1",
+    "yosay": "^2.0.0"
+  },
+  "devDependencies": {
+  },
+  "main": "index.js",
+  "license": "MIT"
+}
