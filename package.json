@@ -1,6 +1,6 @@
 {
   "name": "generator-framerjs-webpack-simple",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "A framer.js template using webpack",
   "author": "gbcdef <cgbvip@gmail.com> (gbcdef.info)",
   "scripts": {
