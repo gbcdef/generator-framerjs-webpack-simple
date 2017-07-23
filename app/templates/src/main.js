@@ -1,1 +1,2 @@
-import imageLayer from './app'
+import './modules/example.coffee'
+import imageLayer from './modules/app'

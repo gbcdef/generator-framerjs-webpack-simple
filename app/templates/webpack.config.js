@@ -26,6 +26,11 @@ module.exports = {
         exclude: /node_modules/
       },
       {
+        test: /\.coffee$/,
+        loader: 'coffee-loader',
+        exclude: /node_modules/
+      },
+      {
         test: /\.(png|jpg|gif|svg)$/,
         loader: 'file-loader',
         options: {
