@@ -1,3 +1,7 @@
+[![npm](https://img.shields.io/badge/npm-1.1.2-green.svg)](https://www.npmjs.com/package/generator-framerjs-webpack-simple)
+[![platform](https://img.shields.io/badge/platform-windows_linux_macos-green.svg)]()
+[![license](https://img.shields.io/badge/license-MIT_License-lightgrey.svg)]()
+
 # generator-framerjs-webpack-simple
 A simple framer.js yeoman template using webpack for package control, which can give you the ability of making UX prototyping on Windows & Linux.
 
