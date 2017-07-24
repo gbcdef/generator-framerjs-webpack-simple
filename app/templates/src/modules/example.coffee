@@ -5,7 +5,7 @@ layerA = new Layer
  
 layerB = new Layer
     backgroundColor: "#FFCC33"
-    width: 500
+    width: Screen.width * 0.6
     height: Screen.height
  
 # Set up FlowComponent 

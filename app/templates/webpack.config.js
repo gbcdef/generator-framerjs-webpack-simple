@@ -1,6 +1,7 @@
 var path = require('path')
 var webpack = require('webpack')
 var CopyWebpackPlugin = require('copy-webpack-plugin')
+var HtmlWebpackPlugin = require('html-webpack-plugin')
 
 module.exports = {
   entry: './src/main.js',
@@ -51,7 +52,12 @@ module.exports = {
   performance: {
     hints: false
   },
-  devtool: '#eval-source-map'
+  devtool: '#eval-source-map',
+  output: {
+    path: path.resolve(__dirname,'./dist/'),
+    filename: 'static/js/[name].[hash].js',
+    chunkFilename: 'static/js/[id].[hash].js'
+  },
 }
 
 if (process.env.NODE_ENV === 'production') {
@@ -71,6 +77,18 @@ if (process.env.NODE_ENV === 'production') {
     }),
     new webpack.LoaderOptionsPlugin({
       minimize: true
+    }),
+    new HtmlWebpackPlugin({
+      filename: path.resolve(__dirname,'./dist/index.html'),
+      template: './index.html',
+      inject: true,
+      minify: {
+        removeComments: true,
+        collapseWhitespace: true,
+        removeAttributeQuotes: true,
+        minifyCSS: true
+      },
+      chunksSortMode: 'dependency'
     }),
     new CopyWebpackPlugin([
       {
