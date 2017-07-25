@@ -1,6 +1,6 @@
 [![npm](https://img.shields.io/badge/npm-1.1.2-green.svg)](https://www.npmjs.com/package/generator-framerjs-webpack-simple)
-[![platform](https://img.shields.io/badge/platform-windows_linux_macos-green.svg)]()
-[![license](https://img.shields.io/badge/license-MIT_License-lightgrey.svg)]()
+[![platform](https://img.shields.io/badge/platform-windows_linux_macos-green.svg)](#)
+[![license](https://img.shields.io/badge/license-MIT_License-lightgrey.svg)](#)
 
 # generator-framerjs-webpack-simple
 A simple framer.js yeoman template using webpack for package control, which can give you the ability of making UX prototyping on Windows & Linux.
@@ -40,3 +40,15 @@ Note that the `framer.js` file of this generator is built by `Niels van Hoorn` a
 You can find the latest framer.js build at [http://builds.framerjs.com/](http://builds.framerjs.com/).
 
 Or you can build your own framer.js: [https://github.com/koenbok/Framer](https://github.com/koenbok/Framer)
+
+# History
+**v1.1.2**
+- fixed live preview bug in v1.1.1
+
+**v1.1.1**
+- fixed `index.html` build bug
+
+**v1.1.0**
+- support coffee script
+
+**v1.0.0**
