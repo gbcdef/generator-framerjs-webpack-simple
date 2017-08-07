@@ -35,7 +35,7 @@ module.exports = {
         test: /\.(png|jpg|gif|svg)$/,
         loader: 'file-loader',
         options: {
-          name: '[name].[ext]?[hash]'
+          name: '[name].[ext]'
         }
       }
     ]
@@ -43,7 +43,8 @@ module.exports = {
   resolve: {
     alias: {
       'vue$': 'vue/dist/vue.esm.js'
-    }
+    },
+    extensions: ['.js', '.json', '.coffee', '.vue']
   },
   devServer: {
     historyApiFallback: true,

@@ -1,4 +1,4 @@
-[![npm](https://img.shields.io/badge/npm-1.1.2-green.svg)](https://www.npmjs.com/package/generator-framerjs-webpack-simple)
+[![npm](https://img.shields.io/badge/npm-1.1.3-green.svg)](https://www.npmjs.com/package/generator-framerjs-webpack-simple)
 [![platform](https://img.shields.io/badge/platform-windows_linux_macos-green.svg)](#)
 [![license](https://img.shields.io/badge/license-MIT_License-lightgrey.svg)](#)
 
@@ -8,7 +8,7 @@ A simple framer.js yeoman template using webpack for package control, which can 
 # Getting Started
 1. Install yeoman
 ```bash
-$ npm i -g yo
+$ npm i -g yo yeoman-generator chalk yosay
 ```
 2. Install generator-framerjs-webpack-simple from npm
 ```bash
@@ -42,6 +42,9 @@ You can find the latest framer.js build at [http://builds.framerjs.com/](http://
 Or you can build your own framer.js: [https://github.com/koenbok/Framer](https://github.com/koenbok/Framer)
 
 # History
+**v1.1.3**
+- removed `bower install` & polished webpack-config
+
 **v1.1.2**
 - fixed live preview bug in v1.1.1
 
