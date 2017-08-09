@@ -1,6 +1,6 @@
 [![npm](https://img.shields.io/badge/npm-1.1.3-green.svg)](https://www.npmjs.com/package/generator-framerjs-webpack-simple)
 [![platform](https://img.shields.io/badge/platform-windows_linux_macos-green.svg)](#)
-[![downloads](https://img.shields.io/npm/dt/generator-framerjs-webpack-simple.svg](#)
+[![downloads](https://img.shields.io/npm/dt/generator-framerjs-webpack-simple.svg)](#)
 [![license](https://img.shields.io/badge/license-MIT_License-lightgrey.svg)](#)
 
 # generator-framerjs-webpack-simple
