@@ -9,7 +9,7 @@ A simple framer.js yeoman template using webpack for package control, which can 
 # Getting Started
 1. Install yeoman
 ```bash
-$ npm i -g yo yeoman-generator chalk yosay
+$ npm i -g yo
 ```
 2. Install generator-framerjs-webpack-simple from npm
 ```bash
@@ -24,8 +24,11 @@ $ cd my-framerjs-project
 ```bash
 $ yo framerjs-webpack-simple
 ```
-5. Customize your package.json(if needed)
-6. Get live preview in browser before writing the code by:
+5. Customize your package.json
+```bash
+$ npm init
+```
+6. Get live preview in browser while editing code :
 ```bash
 $ npm run dev
 ```
@@ -42,17 +45,5 @@ You can find the latest framer.js build at [http://builds.framerjs.com/](http://
 
 Or you can build your own framer.js: [https://github.com/koenbok/Framer](https://github.com/koenbok/Framer)
 
-# History
-**v1.1.3**
-- removed `bower install` & polished webpack-config
-
-**v1.1.2**
-- fixed live preview bug in v1.1.1
-
-**v1.1.1**
-- fixed `index.html` build bug
-
-**v1.1.0**
-- support coffee script
-
-**v1.0.0**
+# License
+MIT
